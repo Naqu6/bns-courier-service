@@ -1,5 +1,19 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
 	margin: 0;
+}
+
+.site-title {
+	cursor: default;
+	transition: 0.05s;
+	user-select: none;
+}
+
+.site-title:hover {
+	color: rgb(10, 10, 10);
 }
 
 .header {
@@ -30,7 +44,7 @@ body {
 .landing {
 	background-image: url("/static/landing.jpg");
 	width: 100%;
-	height: 100vh;
+	height: 750px;
 	
 	background-attachment: fixed;
 	background-position: center;
@@ -128,4 +142,62 @@ img:hover {
 
 .service-extra-note {
 	margin-top: 10px;
+}
+
+.landing-card {
+	color: white;
+	font-family: "Montserrat", sans-serif;
+
+	margin: 50px auto;
+	padding: 50px 150px;
+
+	background-color: rgb(50, 50, 50, 0.5);
+	cursor: default;
+
+	user-select: none;
+}
+
+.landing-card-title {
+	font-size: 36px;
+}
+
+.landing-card-subtitle {
+	font-size: 24px;
+	color: rgb(225, 225, 225);
+}
+
+.regions-served {
+	display: flex;
+	flex-wrap: wrap;
+	max-width: 370px;
+}
+
+.region {
+	margin: 2.5px;
+	padding: 2.5px;
+	cursor: default;
+	background-color: rgb(75, 75, 75, 0.6);
+}
+
+.region {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.1s;
+}
+
+.region:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.landing-content {
+	margin-top: 25px;
+}
+
+.landing-content-title {
+	width: 370px;
+	margin-bottom: 5px;
+}
+
+.regions-served {
+	justify-content: center;
 }
