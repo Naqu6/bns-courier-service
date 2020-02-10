@@ -1,0 +1,131 @@
+body {
+	margin: 0;
+}
+
+.header {
+	font-family: 'Montserrat', sans-serif;
+
+	display: flex;
+	font-size: 16px;
+	padding: 16px;
+}
+
+.site-title {
+	flex-grow: 1;
+}
+
+.site-links > a {
+	text-decoration: none;
+	margin: 5px;
+	padding: 2.5px;
+
+	transition: 0.2s;
+	color: rgb(75, 75, 75);
+}
+
+.site-links > a:hover {
+	color: black;
+}
+
+.landing {
+	background-image: url("/static/landing.jpg");
+	width: 100%;
+	height: 100vh;
+	
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.pane-title {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+}
+
+.pane-content {
+	margin-right: 35px;
+}
+
+.pane-body {
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.75;
+}
+
+.pane {
+	margin: 35px;
+	padding: 35px;
+}
+
+.flex {
+	display: flex;
+}
+
+.pane-img {
+	width: 40%;
+}
+
+.card {
+	padding: 10px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+.card:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.service.card {
+	width: 250px;
+	margin: 15px;
+
+	font-family: 'Montserrat', sans-serif;
+}
+
+.services-list {
+	flex-wrap: wrap;
+}
+
+.title-subtext {
+    color: grey;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+}
+
+.service-title {
+	flex-grow: 1;
+	margin-right: 5px;
+}
+
+.service-description {
+	font-size: 12px;
+}
+
+.contact-us-content {
+	margin: 5px;
+}
+
+
+img {
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	transition: 0.3s;
+}
+
+img:hover {
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+.service-extra-note {
+	font-family: "Open Sans", sans-serif;
+	font-size: 12px;
+}
+
+.services-info {
+	margin-bottom: 15px;
+}
+
+.service-extra-note {
+	margin-top: 10px;
+}
