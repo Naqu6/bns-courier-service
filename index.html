@@ -15,7 +15,7 @@
 
 		<div class="site-links">
 			<a href="#about" class="about-us-link">
-				About Us
+				About
 			</a>
 
 			<a href="#services" class="services-link">
@@ -27,7 +27,7 @@
 			</a>
 
 			<a href="#contact" class="contact-link">
-				Contact Us
+				Contact
 			</a>
 		</div>
 	</div>
@@ -116,7 +116,7 @@
 		</div>
 	</div>
 
-	<div class="about-us pane flex" id="about">
+	<div class="about-us pane" id="about">
 		<div class="pane-content card">
 			<div class="pane-title">
 				About Us
@@ -159,11 +159,10 @@
 			</div>
 		</div>
 
-		<img src="/static/aboutus.jpg" class="pane-img about-us-image">
+		<div class="pane-img about-us-image" style="background-image: url('/static/aboutus.jpg');"></div>
 	</div>
 
 	<div class="services-container pane" id="services">
-		<img>
 		
 		<div class="services">
 			<div class="services-info">
@@ -187,89 +186,89 @@
 				</div>
 			</div>
 
-			<div class="flex">
-				<img src="/static/services.jpg" class="pane-img">
+			<div class="services-data">
+				<!-- <img class="pane-img services-img" src="/static/services.jpg"> -->
 				
 				<div class="services-list flex">
-				<div class="service card">
-					<div class="flex">
-						<div class="service-title">
-							Early Bird
+					<div class="service card">
+						<div class="flex">
+							<div class="service-title">
+								Early Bird
+							</div>
+
+							<div class="service-price">
+								$9.95
+							</div>
 						</div>
 
-						<div class="service-price">
-							$9.95
-						</div>
-					</div>
-
-					<div class="service-description">
-						Orders received by 11:00am will be delivered by the end of the business day
-					</div>
-				</div>
-
-				<div class="service card">
-					<div class="flex">
-						<div class="service-title">
-							5 Hour
-						</div>
-
-						<div class="service-price">
-							$11.95
+						<div class="service-description">
+							Orders received by 11:00am will be delivered by the end of the business day
 						</div>
 					</div>
 
-					<div class="service-description">
-						Orders received by 1pm will be delivered by the end of the business day
-					</div>
-				</div>
+					<div class="service card">
+						<div class="flex">
+							<div class="service-title">
+								5 Hour
+							</div>
 
-				<div class="service card">
-					<div class="flex">
-						<div class="service-title">
-							Rush
+							<div class="service-price">
+								$11.95
+							</div>
 						</div>
 
-						<div class="service-price">
-							$14.70
-						</div>
-					</div>
-
-					<div class="service-description">
-						Delivered in 3 hours or less
-					</div>
-				</div>
-
-				<div class="service card">
-					<div class="flex">
-						<div class="service-title">
-							Direct
-						</div>
-
-						<div class="service-price">
-							$25.20
+						<div class="service-description">
+							Orders received by 1pm will be delivered by the end of the business day
 						</div>
 					</div>
 
-					<div class="service-description">
-						Delivered in 90 minutes or less
-					</div>
-				</div>
+					<div class="service card">
+						<div class="flex">
+							<div class="service-title">
+								Rush
+							</div>
 
-				<div class="service card">
-					<div class="flex">
-						<div class="service-title">
-							Door-to-door
+							<div class="service-price">
+								$14.70
+							</div>
 						</div>
 
-						<div class="service-price">
-							1.5x Direct Price
+						<div class="service-description">
+							Delivered in 3 hours or less
 						</div>
 					</div>
 
-					<div class="service-description">
-						Our fastest service (no stops between pick-up and delivery)
+					<div class="service card">
+						<div class="flex">
+							<div class="service-title">
+								Direct
+							</div>
+
+							<div class="service-price">
+								$25.20
+							</div>
+						</div>
+
+						<div class="service-description">
+							Delivered in 90 minutes or less
+						</div>
 					</div>
-				</div>
+
+					<div class="service card">
+						<div class="flex">
+							<div class="service-title">
+								Door-to-door
+							</div>
+
+							<div class="service-price">
+								1.5x Direct Price
+							</div>
+						</div>
+
+						<div class="service-description">
+							Our fastest service (no stops between pick-up and delivery)
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -320,7 +319,7 @@
 				</div>
 				
 				<div class="contact-method">
-					(416) 785-8686
+					<a href="tel:416-785-8686">(416) 785-8686</a>
 				</div>
 			</div>
 
@@ -330,7 +329,7 @@
 				</div>
 				
 				<div class="contact-method">
-					1-866-785-8686 <br>(US and Canadian out-of-town customers)
+					<a href="tel:1-866-785-8686">1-866-785-8686</a> <br>(US and Canadian out-of-town customers)
 				</div>
 			</div>
 
@@ -340,7 +339,7 @@
 				</div>
 				
 				<div class="contact-method">
-					(416) 785-5757
+					<a href="tel:416-785-5757">(416) 785-5757</a>
 				</div>
 			</div>
 
@@ -350,7 +349,7 @@
 				</div>
 				
 				<div class="contact-method">
-					info@bnsdelivery.com
+					<a href="mailto:info@bnsdelivery.com">info@bnsdelivery.com</a>
 				</div>
 			</div>
 		</div>
