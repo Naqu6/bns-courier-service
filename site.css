@@ -21,7 +21,18 @@ body {
 
 	display: flex;
 	font-size: 16px;
-	padding: 16px;
+}
+
+.header-text-content {
+	padding: 16px !important;
+}
+
+.main-logo {
+	height: 51px;
+}
+
+.site-links {
+	margin-top: 16px;
 }
 
 .site-title {
@@ -101,6 +112,9 @@ body {
 	margin: 15px;
 
 	font-family: 'Montserrat', sans-serif;
+
+	border: 0;
+	border-top: 5px solid black;
 }
 
 .services-list {
@@ -223,7 +237,11 @@ img {
 }
 
 @media (max-width: 1100px) {
-	img {
+	img.main-logo {
+		height: 71px !important;
+	}
+
+	img:not(.main-logo) {
 		margin-top: 15px;
 		width: 100%;
 	}
@@ -243,9 +261,7 @@ img {
 	.services-img {
 		display: none;
 	}
-}
 
-@media (max-width: 1100px) {
 	.services-list {
 		display: block !important;
 	}
@@ -265,14 +281,31 @@ img {
 	.landing-card {
 		padding: 25px 75px;
 	}
+
+	.landing {
+		background-position-y: -500px;
+	}
 }
 
-@media (max-width: 575px) {
+@media (max-width: 1000px) {
 	.services-link {
 		display: none;
 	}
 
 	.order-online-link {
 		display: none;
+	}
+
+	.header {
+		font-size: 32px;
+	}
+
+	.landing-content {
+		font-size: 24px;
+	}
+
+	.service.card {
+		width: calc(100% - 30px) !important;
+		font-size: 24px;
 	}
 }
